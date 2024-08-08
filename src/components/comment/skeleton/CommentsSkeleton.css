@@ -1,0 +1,35 @@
+.skeleton {
+  background-color: #ddd;
+  border-radius: 4px;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #ddd;
+  }
+  50% {
+    background-color: #eee;
+  }
+  100% {
+    background-color: #ddd;
+  }
+}
+
+.skeleton-title {
+  height: 2em;
+  width: 60%;
+  margin-bottom: 0.5em;
+}
+
+.skeleton-time {
+  height: 1em;
+  width: 30%;
+  margin-bottom: 0.5em;
+}
+
+.skeleton-comment {
+  height: 1em;
+  width: 80%;
+  margin-bottom: 0.5em;
+}

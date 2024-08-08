@@ -1,0 +1,25 @@
+.article {
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #dedede;
+}
+
+.article-author {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.article-text {
+  font-size: 18px;
+  margin: 1rem 0;
+  text-align: justify;
+}
+
+.article-date {
+  font-size: 14px;
+  color: gray;
+  text-align: end;
+}
